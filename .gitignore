@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# SolidWorks backup/temp files
+~$*
+*.SLDLFP
+*.swp
+*.sldasm.bak
+*.sldprt.bak
+*.slddrw.bak
+*.bak
+*.tmp
+
+# KiCad backups
+*-backups/
+*.kicad_prl
+*.kicad_pcb-bak
+*.sch-bak
+*-cache.lib
+fp-info-cache
+_autosave-*
+
+# Build output
+build/
+dist/
+*.o
+*.elf
+*.hex
+*.log
+install/
+devel/
+log/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
